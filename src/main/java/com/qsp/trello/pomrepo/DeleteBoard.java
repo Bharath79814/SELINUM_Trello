@@ -8,7 +8,6 @@ import org.openqa.selenium.support.PageFactory;
 public class DeleteBoard {
 	WebDriver driver;
 	@FindBy(xpath = "//button[normalize-space()='Permanently delete board']")
-	System.out.println("Git testing")
 	private WebElement deleteBoard;
 
 	public DeleteBoard(WebDriver driver) {
